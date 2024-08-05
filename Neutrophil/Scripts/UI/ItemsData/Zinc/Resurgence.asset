@@ -1,0 +1,54 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 56e72514990988b478881778330826eb, type: 3}
+  m_Name: Resurgence
+  m_EditorClassIdentifier: 
+  itemCategory: 2
+  itemType: 0
+  itemName: Resurgence
+  itemDescription: Jika player mati maka akan hidup Kembali dan mengembalikan HP
+    sebanyak 50/80/100
+  itemDescriptionLevel:
+  - Jika player mati maka akan hidup Kembali dan mengembalikan HP sebanyak 50
+  - Jika player mati maka akan hidup Kembali dan mengembalikan HP sebanyak 80
+  - Jika player mati maka akan hidup Kembali dan mengembalikan HP sebanyak 100
+  itemIcon: {fileID: 21300000, guid: c314e764f3fda684382d456f35e8f64b, type: 3}
+  itemActiveIcon: {fileID: 21300000, guid: 1a2edbbdb100b204e840c71718d56bb2, type: 3}
+  isItemBought: 0
+  itemID: 0
+  itemPrice: 400
+  itemLevel: 1
+  zincCost: c80000005e010000
+  itemStats:
+    level: 0
+    health: 
+    attack: 
+    defense: 
+    attackSpeed: []
+    damagePerSecond: []
+    lifeSteal: []
+    critAttack: []
+    armor: 
+    maxHealth: 
+    trapDamageReduction: []
+    healthRegen: 
+    manaRegen: 
+    spellDamage: 
+    maxMana: 
+    isLightning: 0
+    lightningDamage: 
+    attackRange: []
+    isGlycoCoin: 0
+    glycoCoinAddition: 
+    isResurrection: 1
+    resurrectionHealth: 320000005000000064000000
+  isUpgradeable: 0

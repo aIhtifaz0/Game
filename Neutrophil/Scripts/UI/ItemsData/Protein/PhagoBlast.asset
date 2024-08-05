@@ -1,0 +1,31 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7cbe6366b2d5233438e992bb497867e1, type: 3}
+  m_Name: PhagoBlast
+  m_EditorClassIdentifier: 
+  itemCategory: 1
+  itemType: 0
+  itemName: Phago Blast
+  itemDescription: Meningkatkan chance critical sebanyak 15%/20%/25%/30%
+  itemDescriptionLevel:
+  - Meningkatkan chance critical sebanyak 15%
+  - Meningkatkan chance critical sebanyak 20%
+  - Meningkatkan chance critical sebanyak 25%
+  - Meningkatkan chance critical sebanyak 30%
+  itemIcon: {fileID: 1329656321, guid: 44d3d35a07e696142be25e007b80b242, type: 3}
+  itemID: 0
+  itemPrice: 0
+  itemLevel: 3
+  itemStats:
+    health: 0
+    attack: 15
+    defense: 0

@@ -1,0 +1,54 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 56e72514990988b478881778330826eb, type: 3}
+  m_Name: Dreadforge
+  m_EditorClassIdentifier: 
+  itemCategory: 2
+  itemType: 0
+  itemName: Dreadforge
+  itemDescription: Memberikan damage tambahan namun menerima lebih banyak damage
+    pula sebanyak 10%/15%/20%
+  itemDescriptionLevel:
+  - Memberikan damage tambahan namun menerima lebih banyak damage pula sebanyak 10%
+  - Memberikan damage tambahan namun menerima lebih banyak damage pula sebanyak 15%
+  - Memberikan damage tambahan namun menerima lebih banyak damage pula sebanyak 20%
+  itemIcon: {fileID: 21300000, guid: d6233d96921d6164e9afabdc13d55415, type: 3}
+  itemActiveIcon: {fileID: 21300000, guid: 05949fe589322004ab3c11198fe3f2a6, type: 3}
+  isItemBought: 0
+  itemID: 0
+  itemPrice: 400
+  itemLevel: 1
+  zincCost: c80000005e010000
+  itemStats:
+    level: 0
+    health: 
+    attack: 0a0000000f00000014000000
+    defense: 
+    attackSpeed: []
+    damagePerSecond: []
+    lifeSteal: []
+    critAttack: []
+    armor: 
+    maxHealth: 
+    trapDamageReduction: []
+    healthRegen: 
+    manaRegen: 
+    spellDamage: 
+    maxMana: 
+    isLightning: 0
+    lightningDamage: 
+    attackRange: []
+    isGlycoCoin: 0
+    glycoCoinAddition: 
+    isResurrection: 0
+    resurrectionHealth: 
+  isUpgradeable: 0

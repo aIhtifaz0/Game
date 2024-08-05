@@ -1,0 +1,56 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 56e72514990988b478881778330826eb, type: 3}
+  m_Name: Enhancer
+  m_EditorClassIdentifier: 
+  itemCategory: 2
+  itemType: 0
+  itemName: 'Enhancer '
+  itemDescription: meberikan jarak serang lebih jauh sebanyak 10%/20%/35%
+  itemDescriptionLevel:
+  - meberikan jarak serang lebih jauh sebanyak 10%
+  - meberikan jarak serang lebih jauh sebanyak 20%
+  - meberikan jarak serang lebih jauh sebanyak 35%
+  itemIcon: {fileID: 21300000, guid: 069e6f6275829724089b4a6edf369e44, type: 3}
+  itemActiveIcon: {fileID: 21300000, guid: 062b15a89a99ced4f98c3bf4768e8f2a, type: 3}
+  isItemBought: 0
+  itemID: 0
+  itemPrice: 400
+  itemLevel: 1
+  zincCost: c80000005e010000
+  itemStats:
+    level: 0
+    health: 
+    attack: 
+    defense: 
+    attackSpeed: []
+    damagePerSecond: []
+    lifeSteal: []
+    critAttack: []
+    armor: 
+    maxHealth: 
+    trapDamageReduction: []
+    healthRegen: 
+    manaRegen: 
+    spellDamage: 
+    maxMana: 
+    isLightning: 0
+    lightningDamage: 
+    attackRange:
+    - 1.2
+    - 1.5
+    - 1.8
+    isGlycoCoin: 0
+    glycoCoinAddition: 
+    isResurrection: 0
+    resurrectionHealth: 
+  isUpgradeable: 0

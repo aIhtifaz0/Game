@@ -1,0 +1,58 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 56e72514990988b478881778330826eb, type: 3}
+  m_Name: Phago Siphon
+  m_EditorClassIdentifier: 
+  itemCategory: 3
+  itemType: 0
+  itemName: Phago Siphon
+  itemDescription: Increase Critical chances
+  itemDescriptionLevel:
+  - +5
+  - +10
+  - +15
+  - +20
+  itemIcon: {fileID: -1151761520, guid: a9b14efc98cadeb4ba756e9aaa7a6dd2, type: 3}
+  itemActiveIcon: {fileID: 0}
+  isItemBought: 0
+  itemID: 0
+  itemPrice: 0
+  itemLevel: 1
+  zincCost: 
+  itemStats:
+    level: 0
+    health: 
+    attack: 
+    defense: 
+    attackSpeed: []
+    damagePerSecond: []
+    lifeSteal:
+    - 5
+    - 10
+    - 15
+    - 20
+    critAttack: []
+    armor: 
+    maxHealth: 
+    trapDamageReduction: []
+    healthRegen: 
+    manaRegen: 
+    spellDamage: 
+    maxMana: 
+    isLightning: 0
+    lightningDamage: 
+    attackRange: []
+    isGlycoCoin: 0
+    glycoCoinAddition: 
+    isResurrection: 0
+    resurrectionHealth: 
+  isUpgradeable: 1

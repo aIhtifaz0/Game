@@ -1,0 +1,60 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 56e72514990988b478881778330826eb, type: 3}
+  m_Name: Protoplasma
+  m_EditorClassIdentifier: 
+  itemCategory: 2
+  itemType: 0
+  itemName: Protoplasma
+  itemDescription: Secondary weapon juga menerima efek critical chance dari total
+    critical chance yang dimiliki oleh player sebanyak 30%/40%/50%
+  itemDescriptionLevel:
+  - Secondary weapon juga menerima efek critical chance dari total critical chance
+    yang dimiliki oleh player sebanyak 30%
+  - Secondary weapon juga menerima efek critical chance dari total critical chance
+    yang dimiliki oleh player sebanyak 40%
+  - Secondary weapon juga menerima efek critical chance dari total critical chance
+    yang dimiliki oleh player sebanyak 50%
+  itemIcon: {fileID: 21300000, guid: fcab8239b7ffffd4ea5915e709f07c22, type: 3}
+  itemActiveIcon: {fileID: 21300000, guid: 7b0ff06534aadfc429250d9328bd8c88, type: 3}
+  isItemBought: 0
+  itemID: 0
+  itemPrice: 400
+  itemLevel: 1
+  zincCost: c80000005e010000
+  itemStats:
+    level: 0
+    health: 
+    attack: 
+    defense: 
+    attackSpeed: []
+    damagePerSecond: []
+    lifeSteal: []
+    critAttack:
+    - 10
+    - 15
+    - 20
+    armor: 
+    maxHealth: 
+    trapDamageReduction: []
+    healthRegen: 
+    manaRegen: 
+    spellDamage: 
+    maxMana: 
+    isLightning: 0
+    lightningDamage: 
+    attackRange: []
+    isGlycoCoin: 0
+    glycoCoinAddition: 
+    isResurrection: 0
+    resurrectionHealth: 
+  isUpgradeable: 0

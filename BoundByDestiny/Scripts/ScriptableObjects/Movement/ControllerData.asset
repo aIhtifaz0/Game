@@ -1,0 +1,45 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: aea6fd78bae70ed49a1a75c3dcf1173c, type: 3}
+  m_Name: ControllerData
+  m_EditorClassIdentifier: 
+  <GravityScale>k__BackingField: 4.0774717
+  <GravityStrength>k__BackingField: -40
+  <FallGravityMult>k__BackingField: 0.5
+  <MaxFallSpeed>k__BackingField: 8
+  <FastFallGravityMult>k__BackingField: 1
+  <MaxFastFallSpeed>k__BackingField: 12
+  <RunMaxSpeed>k__BackingField: 8
+  <RunAcceleration>k__BackingField: 0.8
+  runAccelAmount: 5
+  <RunDecceleration>k__BackingField: 3
+  runDeccelAmount: 18.75
+  accelInAir: 1
+  DeccelInAir: 1
+  <JumpHeight>k__BackingField: 5
+  <JumpTimeToApex>k__BackingField: 0.5
+  jumpForce: 20
+  jumpHangGravityMult: 1
+  <JumpHangTimeThreshold>k__BackingField: 1
+  <JumpHangAccelerationMult>k__BackingField: 1
+  <JumpHangMaxSpeedMult>k__BackingField: 2
+  coyoteTime: 0.2
+  jumpInputBufferTime: 0.1
+  dashAmount: 1
+  <DashSpeed>k__BackingField: 15
+  <DashSleepTime>k__BackingField: 0.01
+  <DashAttackTime>k__BackingField: 0.2
+  <DashEndTime>k__BackingField: 0.05
+  <DashEndSpeed>k__BackingField: {x: 15, y: 15}
+  dashEndRunLerp: 0.5
+  <DashRefillTime>k__BackingField: 0.5
+  dashInputBufferTime: 0.1

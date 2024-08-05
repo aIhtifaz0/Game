@@ -1,0 +1,43 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 56e72514990988b478881778330826eb, type: 3}
+  m_Name: Zinc-stream
+  m_EditorClassIdentifier: 
+  itemCategory: 0
+  itemType: 1
+  itemName: Zinc-venom
+  itemDescription: Memberikan HP Regen sebanyak 2/1S dan Mana regen sebanyak 4/1S
+  itemDescriptionLevel: []
+  itemIcon: {fileID: 21300000, guid: ec10f85a83f20dc408e03bfba1779180, type: 3}
+  itemActiveIcon: {fileID: 21300000, guid: a9465095fca92ea40a0b648987688377, type: 3}
+  isItemBought: 0
+  itemID: 0
+  itemPrice: 850
+  itemLevel: 0
+  itemStats:
+    level: 1
+    health: 
+    attack: 
+    defense: 
+    damagePerSecond: []
+    lifeSteal: []
+    critAttack: []
+    armor: 
+    maxHealth: 
+    trapDamageReduction: []
+    healthRegen: 02000000
+    manaRegen: 
+    spellDamage: 
+    maxMana: 04000000
+    isLightning: 0
+    lightningDamage: 
+  isUpgradeable: 0

@@ -1,0 +1,56 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 56e72514990988b478881778330826eb, type: 3}
+  m_Name: Swiftstrike
+  m_EditorClassIdentifier: 
+  itemCategory: 2
+  itemType: 0
+  itemName: Swiftstrike
+  itemDescription: Memberikan attack speed sebanyak 10%/20%/30%
+  itemDescriptionLevel:
+  - Memberikan attack speed sebanyak 10%
+  - Memberikan attack speed sebanyak 20%
+  - Memberikan attack speed sebanyak 30%
+  itemIcon: {fileID: 21300000, guid: 8016c53b28877dd41b8521727b793bbd, type: 3}
+  itemActiveIcon: {fileID: 21300000, guid: 629f69fb40589c348bc89c19845dcac4, type: 3}
+  isItemBought: 0
+  itemID: 0
+  itemPrice: 400
+  itemLevel: 1
+  zincCost: c80000005e010000
+  itemStats:
+    level: 0
+    health: 
+    attack: 
+    defense: 
+    attackSpeed:
+    - 1
+    - 1.2
+    - 1.5
+    damagePerSecond: []
+    lifeSteal: []
+    critAttack: []
+    armor: 
+    maxHealth: 
+    trapDamageReduction: []
+    healthRegen: 
+    manaRegen: 
+    spellDamage: 
+    maxMana: 
+    isLightning: 0
+    lightningDamage: 
+    attackRange: []
+    isGlycoCoin: 0
+    glycoCoinAddition: 
+    isResurrection: 0
+    resurrectionHealth: 
+  isUpgradeable: 0
